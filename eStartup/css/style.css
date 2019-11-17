@@ -154,6 +154,33 @@ span {
   padding: 6px 0 0 0;
 }
 
+#circle {
+  position: fixed;
+  background-color: #fff;
+  margin: 20px auto;
+  width: 85px;
+  height: 85px;
+  border-radius: 200px;
+  border:1px solid #990000;
+}
+#text span {
+  color: #990000;
+}
+#text {
+  z-index: 1;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #505050;
+  font-family: "Philosopher", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 0;
+  text-align: center
+}
+
 #header #logo h1 {
   color: #505050;
   font-family: "Philosopher", sans-serif;
