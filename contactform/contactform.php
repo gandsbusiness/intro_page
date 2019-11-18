@@ -8,13 +8,13 @@
 /***************** Configuration *****************/
 
   // Replace with your real receiving email address
-  $contact_email_to = "contact@example.com";
+  $contact_email_to = "gaston.alvarado@gands.group";
 
   // Title prefixes
-  $subject_title = "Contat Form Message:";
-  $name_title = "Name:";
+  $subject_title = "Contact Form Message:";
+  $name_title = "Nombre:";
   $email_title = "Email:";
-  $message_title = "Message:";
+  $message_title = "Mensaje:";
 
   // Error messages
   $contact_error_name = "Name is too short or empty!";
